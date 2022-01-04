@@ -7,16 +7,20 @@ h1 {
   font-size: 50px;
 }
 
+h2{
+  font-size: 30px;
+}
+
 .mask {
   color: orange;
 }
 
 .flex-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
-.top-pic{
+.top-pic {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -39,9 +43,42 @@ h1 {
   font-weight: 700;
 }
 
-.middle-pic{
+.middle-pic {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
 
+
+.box-make{
+  box-shadow: 10px 10px 40px green;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  padding-right: 10px;
+}
+
+.last-part{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#left-border-color{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, tomato);
+  border-image-slice: 1;
+}
+#right-border-color{
+  border-left: 7px solid;
+  border-image: linear-gradient(red,yellow);
+  border-image-slice: 1;
+}
+
+footer p{
+  text-align: center;
+  margin-bottom: 50px;
+  color: blue;
+  font-weight: 700;
 }
